@@ -33,6 +33,16 @@
                         "UsbConnector", 3,
                         "port", Buffer() { 4, 0, 0, 0 },
                     },
+                    "HS05", Package() // inner left
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 5, 0, 0, 0 },
+                    },
+                    "HS06", Package() // inner right
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 6, 0, 0, 0 },
+                    },
                     "HS10", Package() // bluetooth
                     {
                         "UsbConnector", 255,
@@ -57,6 +67,16 @@
                     {
                         "UsbConnector", 3,
                         "port", Buffer() { 16, 0, 0, 0 },
+                    },
+                    "SS05", Package() // inner left
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 17, 0, 0, 0 },
+                    },
+                    "SS06", Package() // inner right
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 18, 0, 0, 0 },
                     },
                 },
             },
